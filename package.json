@@ -2,7 +2,7 @@
   "name": "kdd-workshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kylezheng1997.github.io/kdd-workshop/",
+  "homepage": "http://modelmining.ai/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
