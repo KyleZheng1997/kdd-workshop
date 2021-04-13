@@ -10,7 +10,8 @@ const routerKey = {
   "/": "1",
   "/organizers": "2",
   "/timeline": "3",
-  "/speakers": "4",
+  "/submission": "3",
+  "/speakers": "5",
 };
 
 function Navigator() {
@@ -19,7 +20,8 @@ function Navigator() {
     <Menu.Item key="1">   <Link to={"/"}>HOME</Link>                 </Menu.Item>
     <Menu.Item key="2">   <Link to={"/organizers"}>ORGANIZERS</Link> </Menu.Item>
     <Menu.Item key="3">   <Link to={"/timeline"}>TIMELINE</Link>     </Menu.Item>
-    <Menu.Item key="4">   <Link to={"/speakers"}>SPEAKERS</Link>     </Menu.Item>
+    <Menu.Item key="4">   <Link to={"/submission"}>CALL FOR PAPERS</Link>     </Menu.Item>
+    <Menu.Item key="5">   <Link to={"/speakers"}>SPEAKERS</Link>     </Menu.Item>
   </Menu>
 
 }
