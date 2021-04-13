@@ -37,7 +37,7 @@ function Organizers() {
             </div>
 
 
-            <h2>Program Committee</h2>
+            {/* <h2>Program Committee</h2>
             <ul className="noBullets organizersText">
             <li>Dr. <span style={{fontWeight: "bold" }}>Xinyuan Chen</span>, Lecturer, East China Normal University, China</li>
             <li>Dr. <span style={{fontWeight: "bold" }}>Erkun Yang</span>, Postdoc, University of North Carolina at Chapel Hill, USA</li>
@@ -52,7 +52,7 @@ function Organizers() {
             <li>Dr. <span style={{fontWeight: "bold" }}>Si Liu</span>, Professor, Beihang University, China</li>
             <li>Dr. <span style={{fontWeight: "bold" }}>Gang Niu</span>, Research Scientist, RIKEN, Japan</li>
             <li>Dr. <span style={{fontWeight: "bold" }}>Chaoyue Wang</span>, Postdoc Fellow, University of Sydney, Australia</li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
