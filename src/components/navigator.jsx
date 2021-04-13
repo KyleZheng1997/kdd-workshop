@@ -10,7 +10,7 @@ const routerKey = {
   "/": "1",
   "/organizers": "2",
   "/timeline": "3",
-  "/submission": "3",
+  "/submission": "4",
   "/speakers": "5",
 };
 
