@@ -13,7 +13,7 @@ function Timeline() {
                 </tr>
                 <tr>
                   <td>Workshop Paper Submission</td>
-                  <td>May 10th, 2021</td>
+                  <td>May 20th, 2021</td>
                 </tr>
                 <tr>
                   <td>Workshop Paper Notification</td>
