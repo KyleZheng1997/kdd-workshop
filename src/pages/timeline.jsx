@@ -7,22 +7,31 @@ function Timeline() {
             <h2>Workshop Timeline</h2>
             <table className="table">
               <tbody>
-                <tr>
+                {/* <tr>
                   <td>Workshop Website and CFP</td>
                   <td>April 10th, 2021</td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td>Workshop Paper Submission</td>
-                  <td>May 20th, 2021</td>
+                  <td>
+                    <div style={{ textDecoration: "line-through", color: "red" }}>
+                      May 20th, 2021
+                    </div>
+                    
+                    <div>
+                      June 3rd, 2021
+                    </div>
+
+                  </td>
                 </tr>
                 <tr>
                   <td>Workshop Paper Notification</td>
-                  <td>June 10th, 2021</td>
-                </tr>
-                <tr>
-                  <td>Updates to Workshop Chairs (number of papers, acceptance rate etc.)</td>
                   <td>June 20th, 2021</td>
                 </tr>
+                {/* <tr>
+                  <td>Updates to Workshop Chairs (number of papers, acceptance rate etc.)</td>
+                  <td>June 20th, 2021</td>
+                </tr> */}
                 <tr>
                   <td>Workshop Program Final Submission and Full Website Online</td>
                   <td>July 2nd, 2021</td>
