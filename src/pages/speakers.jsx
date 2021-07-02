@@ -1,7 +1,7 @@
 
 function Speakers() {
   return (
-    <div>
+    <div style={{ paddingBottom: 100 }}>
       <div className="container" >
         <div className="row justify-content-center">
           <div className="col-lg-8 cl-md-10">
