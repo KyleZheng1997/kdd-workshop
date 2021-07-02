@@ -12,6 +12,7 @@ const routerKey = {
   "/timeline": "3",
   "/submission": "4",
   "/speakers": "5",
+  "/program": "6",
 };
 
 function Navigator() {
@@ -22,6 +23,7 @@ function Navigator() {
     <Menu.Item key="3">   <Link to={"/timeline"}>TIMELINE</Link>     </Menu.Item>
     <Menu.Item key="4">   <Link to={"/submission"}>CALL FOR PAPERS</Link>     </Menu.Item>
     <Menu.Item key="5">   <Link to={"/speakers"}>SPEAKERS</Link>     </Menu.Item>
+    <Menu.Item key="6">   <Link to={"/program"}>PROGRAM SKETCH</Link>     </Menu.Item>
   </Menu>
 
 }

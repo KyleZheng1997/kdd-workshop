@@ -14,6 +14,7 @@ import Timeline from './pages/timeline';
 import Organizers from './pages/organizers';
 import Speakers from './pages/speakers';
 import Submission from './pages/submission';
+import Program from './pages/program';
 
 import { Layout } from 'antd';
 const { Content } = Layout;
@@ -39,6 +40,7 @@ function App() {
               <Route path="/timeline" component={Timeline} />
               <Route path="/speakers" component={Speakers} />
               <Route path="/submission" component={Submission} />
+              <Route path="/program" component={Program} />
               <Route path="/" component={Home} />
             </Switch>
           </div>

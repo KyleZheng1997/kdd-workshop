@@ -17,6 +17,11 @@
   font-size: 15px;
 }
 
+.speakersText {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+}
+
 .organizersImage {
   display: inline-block;
   width: 300px;
@@ -44,6 +49,6 @@
   background-position: center;
 }
 
-/* .imageOverlay::before {
-  
-} */
+.tableCenter {
+  text-align: center;
+}
