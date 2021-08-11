@@ -9,32 +9,60 @@ function Timeline() {
             <table className="table">
               <tbody>
                 <tr>
-                  <td> Spotlight X4</td>
-                  <td className='tableCenter'> 08:00-08:40 </td>
+                  <td> Opening Remark </td>
+                  <td className='tableCenter'> 08:00-08:10 </td>
                 </tr>
                 <tr>
-                  <td>10 minutes break</td>
+                  <td> Spotlight 1: Vision Transformer Pruning </td>
+                  <td className='tableCenter'>08:10-08:20</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 2: Defense of Adversarial Examples through Removal of Effective Adversarial Pathways </td>
+                  <td className='tableCenter'>08:20-08:30</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 3: CNN-based Local Vision Transformer for COVID-19 Diagnosis </td>
+                  <td className='tableCenter'>08:30-08:40</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 4: Learning with Imperfect Distilled Knowledge </td>
                   <td className='tableCenter'>08:40-08:50</td>
                 </tr>
                 <tr>
-                  <td>Keynote - Tao Qin</td>
-                  <td className='tableCenter'>08:50-09:30</td>
+                  <td> Break </td>
+                  <td className='tableCenter'>08:50-09:00</td>
                 </tr>
                 <tr>
-                  <td>Keynote - Emtiyaz Khan</td>
-                  <td className='tableCenter'>09:30-10:10</td>
+                  <td> Keynote - Tao Qin (Microsoft Research Asia) </td>
+                  <td className='tableCenter'>09:00-09:40</td>
                 </tr>
                 <tr>
-                  <td>10 minutes break</td>
-                  <td className='tableCenter'>10:10-10:20</td>
+                  <td> Keynote - Emtiyaz Khan (RIKEN)  </td>
+                  <td className='tableCenter'>09:40-10:20</td>
                 </tr>
                 <tr>
-                  <td>Spotlight X4</td>
-                  <td className='tableCenter'>10:20-11:00</td>
+                  <td> Break </td>
+                  <td className='tableCenter'>10:20-10:30</td>
                 </tr>
                 <tr>
-                  <td>Poster Session - GatherTown</td>
-                  <td className='tableCenter'>11:00-12:00</td>
+                  <td> Spotlight 5: FraudNE: a Joint Embedding Approach for Fraud Detection </td>
+                  <td className='tableCenter'>10:30-10:40</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 6: Structured DropConnect for Uncertainty Inference in Image Classification  </td>
+                  <td className='tableCenter'>10:40-10:50</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 7:  Cross-layer Navigation Convolutional Neural Network for Fine-grained Visual Classification  </td>
+                  <td className='tableCenter'>10:50-11:00</td>
+                </tr>
+                <tr>
+                  <td> Spotlight 8:  Deformable Generative Networks for Few-shot Cross-Language Font Generation </td>
+                  <td className='tableCenter'>11:00-11:10</td>
+                </tr>
+                <tr>
+                  <td> Poster Session - GatherTown </td>
+                  <td className='tableCenter'>11:10-12:00</td>
                 </tr>
               </tbody>
             </table>
