@@ -45,7 +45,7 @@ function Timeline() {
                   <td className='tableCenter'>10:20-10:30</td>
                 </tr>
                 <tr>
-                  <td> Spotlight 5: FraudNE: a Joint Embedding Approach for Fraud Detection <a href="">(Paper Link)</a> </td>
+                  <td> Spotlight 5: FraudNE: a Joint Embedding Approach for Fraud Detection <a href="https://drive.google.com/file/d/1tw6jRYPPqEfIlFy8nlbVNCDG_OAD4T1L/view?usp=sharing">(Paper Link)</a> </td>
                   <td className='tableCenter'>10:30-10:40</td>
                 </tr>
                 <tr>
