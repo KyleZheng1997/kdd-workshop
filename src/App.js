@@ -3,29 +3,31 @@ import './App.css';
 
 import React from 'react';
 import {
-  HashRouter as Router,
+  HashRouter,
+  BrowserRouter,
   Switch,
   Route,
 } from "react-router-dom";
 
-import Navigator from './components/navigator';
-import Home from './pages/home';
-import Timeline from './pages/timeline';
-import Organizers from './pages/organizers';
-import Speakers from './pages/speakers';
-import Submission from './pages/submission';
-import Program from './pages/program';
+import {default as KddNavigator} from './components/KDDNavigator';
+import {default as KDDHome} from './pages/KDD/home';
+import {default as KDDTimeline} from './pages/KDD/timeline';
+import {default as KDDOrganizers} from './pages/KDD/organizers';
+import {default as KDDSpeakers} from './pages/KDD/speakers';
+import {default as KDDSubmission} from './pages/KDD/submission';
+import {default as KDDProgram} from './pages/KDD/program';
+
+import {default as  IJCNNNavigator} from './components/IJCNNNavigator';
 
 import { Layout } from 'antd';
 const { Content } = Layout;
 
 
-
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Layout className="layout">
-        <Navigator />
+        <KddNavigator />
         <Content >
           <div className="imageOverlay">
             <h1 style={{ textAlign: "center", color: "white", position: "relative" }}>
@@ -33,20 +35,21 @@ function App() {
               Model Mining
             </h1>
           </div>
-
+          
           <div style={{ padding: '0 50px', marginTop: 30, marginBottom: 20, minHeight: 500 }}>
             <Switch>
-              <Route path="/organizers" component={Organizers} />
-              <Route path="/timeline" component={Timeline} />
-              <Route path="/speakers" component={Speakers} />
-              <Route path="/submission" component={Submission} />
-              <Route path="/program" component={Program} />
-              <Route path="/" component={Home} />
+              <Route path="/organizers" component={KDDOrganizers} />
+              <Route path="/timeline" component={KDDTimeline} />
+              <Route path="/speakers" component={KDDSpeakers} />
+              <Route path="/submission" component={KDDSubmission} />
+              <Route path="/program" component={KDDProgram} />
+              <Route path="/" component={KDDHome} />
             </Switch>
           </div>
+
         </Content>
       </Layout>
-    </Router>
+    </BrowserRouter>
   );
 }
 
