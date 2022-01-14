@@ -3,13 +3,19 @@ import './App.css';
 
 import React from 'react';
 import {
-  HashRouter,
   BrowserRouter,
   Switch,
   Route,
 } from "react-router-dom";
 
-import {default as KddNavigator} from './components/KDDNavigator';
+
+import {
+  useLocation,
+  Link,
+} from "react-router-dom";
+
+
+import {default as KDDNavigator} from './components/KDDNavigator';
 import {default as KDDHome} from './pages/KDD/home';
 import {default as KDDTimeline} from './pages/KDD/timeline';
 import {default as KDDOrganizers} from './pages/KDD/organizers';
@@ -23,11 +29,31 @@ import { Layout } from 'antd';
 const { Content } = Layout;
 
 
+function KDDSwitch() {
+  return <Switch>
+            <Route path="/kdd/organizers" component={KDDOrganizers} />
+            <Route path="/kdd/timeline" component={KDDTimeline} />
+            <Route path="/kdd/speakers" component={KDDSpeakers} />
+            <Route path="/kdd/submission" component={KDDSubmission} />
+            <Route path="/kdd/program" component={KDDProgram} />
+            <Route path="/kdd/home" component={KDDHome} />  
+            <Route path="/" component={KDDHome} />  
+        </Switch>
+}
+
+
 function App() {
+  
+  // const location = useLocation();
+  
+
   return (
     <BrowserRouter>
+
       <Layout className="layout">
-        <KddNavigator />
+
+
+        <KDDNavigator />
         <Content >
           <div className="imageOverlay">
             <h1 style={{ textAlign: "center", color: "white", position: "relative" }}>
@@ -37,14 +63,7 @@ function App() {
           </div>
           
           <div style={{ padding: '0 50px', marginTop: 30, marginBottom: 20, minHeight: 500 }}>
-            <Switch>
-              <Route path="/organizers" component={KDDOrganizers} />
-              <Route path="/timeline" component={KDDTimeline} />
-              <Route path="/speakers" component={KDDSpeakers} />
-              <Route path="/submission" component={KDDSubmission} />
-              <Route path="/program" component={KDDProgram} />
-              <Route path="/" component={KDDHome} />
-            </Switch>
+            <KDDSwitch />
           </div>
 
         </Content>
@@ -52,5 +71,7 @@ function App() {
     </BrowserRouter>
   );
 }
+
+
 
 export default App;

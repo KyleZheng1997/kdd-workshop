@@ -25,7 +25,7 @@ function Timeline() {
                   <td className='tableCenter'>08:30-08:40</td>
                 </tr>
                 <tr>
-                  <td> Spotlight 4:  Learning with Imperfect Distilled Knowledge <a href="">(Paper Link)</a> </td>
+                  <td> Spotlight 4:  Learning with Imperfect Distilled Knowledge <a href="https://drive.google.com/file/d/1SWI92WR_U1cuIrC-hlnNGmS1e3nuse6J/view?usp=sharing">(Paper Link)</a> </td>
                   <td className='tableCenter'>08:40-08:50</td>
                 </tr>
                 <tr>
