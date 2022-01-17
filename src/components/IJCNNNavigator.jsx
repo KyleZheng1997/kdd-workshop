@@ -20,6 +20,10 @@ function Navigator() {
       <Link to={"/ijcnn/organizers"}>ORGANIZERS</Link>
     </Menu.Item>
 
+    <Menu.Item key="/ijcnn/timeline">   
+      <Link to={"/ijcnn/timeline"}>TIMELINE</Link>
+    </Menu.Item>
+
     <SubMenu key="SubMenu"  title="PAST EVENTS">
         <Menu.Item key="/kdd/home">
           <Link to={"/kdd/home"}>KDD Workshop 2021</Link>

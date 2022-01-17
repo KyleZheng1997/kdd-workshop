@@ -49,11 +49,11 @@ function IJCNNSwitch() {
   return <Switch>
             <Route path="/ijcnn/organizers" component={IJCNNOrganizers} />
             <Route path="/ijcnn/timeline" component={IJCNNTimeline} />
-            <Route path="/ijcnn/speakers" component={IJCNNSpeakers} />
-            <Route path="/ijcnn/submission" component={IJCNNSubmission} />
-            <Route path="/ijcnn/program" component={IJCNNProgram} />
+            {/* <Route path="/ijcnn/speakers" component={IJCNNSpeakers} /> */}
+            {/* <Route path="/ijcnn/submission" component={IJCNNSubmission} /> */}
+            {/* <Route path="/ijcnn/program" component={IJCNNProgram} /> */}
             <Route path="/ijcnn/home" component={IJCNNHome} />  
-            <Route path="/" component={KDDHome} />  
+            <Route path="/" component={IJCNNHome} />  
         </Switch>
 }
 

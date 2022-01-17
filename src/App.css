@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column; 
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("https://images.musement.com/cover/0001/43/sydney_header-42285.jpeg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://www.wallpapertip.com/wmimgs/15-157632_cinque-terre.jpg");
   background-size: cover;
   background-position: center;
 }
