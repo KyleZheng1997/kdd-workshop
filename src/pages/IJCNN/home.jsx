@@ -17,7 +17,7 @@ function Home() {
 
           <h2>Topics of Interest</h2>
           <p className="contentText">
-              The TOPIC model mining of this workshop aims to investigate more diverse and advanced manners in mining knowledge within models, which tends to leverage the pretrained models more wisely, elegantly and systematically. The topics of interest include the theory, algorithm and application of mining the values of models in different scenarios
+              The TOPIC model mining of this session aims to investigate more diverse and advanced manners in mining knowledge within models, which tends to leverage the pretrained models more wisely, elegantly and systematically. The topics of interest include the theory, algorithm and application of mining the values of models in different scenarios
           </p >
 
           <div>
@@ -30,7 +30,7 @@ function Home() {
           </div>
 
             <p className="contentText">
-              Model mining as a special way of data mining is relevant to SIGKDD, and its audience including researchers and engineers will benefit a lot for designing more advanced algorithms for their tasks.
+              Model mining as a special way of data mining is relevant to IJCNN, and its audience including researchers and engineers will benefit a lot for designing more advanced algorithms for their tasks.
             </p>
           </div>
         </div>
